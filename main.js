@@ -1,16 +1,16 @@
-import '/style.css'
+import '/Website/style.css'
 
-import * as THREE from '/node_modules/three/build/three.module.js';
-import { OrbitControls } from '/node_modules/three/examples/jsm/controls/OrbitControls';
-import { FlyControls } from '/node_modules/three/examples/jsm/controls/FlyControls';
-import { GLTFLoader } from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
-import { EffectComposer } from '/node_modules/three/examples/jsm/postprocessing/EffectComposer.js';
-import { RenderPass } from '/node_modules/three/examples/jsm/postprocessing/RenderPass.js';
-import {BloomPass} from '/node_modules/three/examples/jsm/postprocessing/BloomPass.js';
-import {UnrealBloomPass} from '/node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js';
-import { Material } from '/node_modules/three';
-import vertexShader from '/Shaders/EarthVertex.glsl';
-import fragmentShader from '/Shaders/fragment.glsl';
+import * as THREE from '/Website/node_modules/three/build/three.module.js';
+import { OrbitControls } from '/Website/node_modules/three/examples/jsm/controls/OrbitControls';
+import { FlyControls } from '/Website/node_modules/three/examples/jsm/controls/FlyControls';
+import { GLTFLoader } from '/Website/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import { EffectComposer } from '/Website/node_modules/three/examples/jsm/postprocessing/EffectComposer.js';
+import { RenderPass } from '/Website/node_modules/three/examples/jsm/postprocessing/RenderPass.js';
+import {BloomPass} from '/Website/node_modules/three/examples/jsm/postprocessing/BloomPass.js';
+import {UnrealBloomPass} from '/Website/node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js';
+import { Material } from '/Website/node_modules/three';
+import vertexShader from '/Website/Shaders/EarthVertex.glsl';
+import fragmentShader from '/Website/Shaders/fragment.glsl';
 
 
 
