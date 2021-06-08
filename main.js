@@ -1,4 +1,4 @@
-import '/Website/style.css'
+import '/style.css'
 
 import * as THREE from '/Website/node_modules/three/build/three.module.js';
 import { OrbitControls } from '/Website/node_modules/three/examples/jsm/controls/OrbitControls';
@@ -9,8 +9,8 @@ import { RenderPass } from '/Website/node_modules/three/examples/jsm/postprocess
 import {BloomPass} from '/Website/node_modules/three/examples/jsm/postprocessing/BloomPass.js';
 import {UnrealBloomPass} from '/Website/node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { Material } from '/Website/node_modules/three';
-import vertexShader from '/Website/Shaders/EarthVertex.glsl';
-import fragmentShader from '/Website/Shaders/fragment.glsl';
+import vertexShader from '/Shaders/EarthVertex.glsl';
+import fragmentShader from '/Shaders/fragment.glsl';
 
 
 
