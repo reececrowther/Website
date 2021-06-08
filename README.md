@@ -1,4 +1,4 @@
 # Solar System Website
 Solar System made with THREE.js
 
-[Link](http://reececrowther.github.io)
+[Link](https://reececrowther.github.io)
