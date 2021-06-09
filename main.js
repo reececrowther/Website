@@ -9,8 +9,8 @@ import { RenderPass } from './node_modules/three/examples/jsm/postprocessing/Ren
 import {BloomPass} from './node_modules/three/examples/jsm/postprocessing/BloomPass.js';
 import {UnrealBloomPass} from './node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { Material } from './node_modules/three';
-import vertexShader from './EarthVertex.glsl';
-import fragmentShader from './fragment.glsl';
+import vertexShader from '/EarthVertex.glsl';
+import fragmentShader from '/fragment.glsl';
 
 
 
