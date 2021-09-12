@@ -1,0 +1,28 @@
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: white;
+  font: 10pt system-ui;
+  text-align: right;
+  padding: 5pt;
+  margin: 4pt;
+  border: 1px solid white;
+  cursor: default;
+  z-index: 999;
+  background: rgba(0,0,0,0.75);
+}
+p span {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  text-decoration: underline;
+}
