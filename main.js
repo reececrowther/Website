@@ -1,6 +1,6 @@
 import '/style.css'
 
-import * as THREE from '//reececrowther.github.io/Website/node_modules/three/build/three.module.js';
+import * as THREE from '../node_modules/three/build/three.module.js';
 import { OrbitControls } from '//reececrowther.github.io/Website/node_modules/three/examples/jsm/controls/OrbitControls';
 import { FlyControls } from '//reececrowther.github.io/Website/node_modules/three/examples/jsm/controls/FlyControls';
 import { GLTFLoader } from '//reececrowther.github.io/Website/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
