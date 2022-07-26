@@ -1,6 +1,6 @@
-// import '/style.css'
+import '/style.css'
 
-import * as THREE from '../node_modules/three';
+import * as THREE from 'three';
 import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls';
 import { FlyControls } from '../node_modules/three/examples/jsm/controls/FlyControls';
 import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoader.js';
